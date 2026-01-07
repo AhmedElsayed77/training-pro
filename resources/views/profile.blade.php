@@ -1,1 +1,2 @@
-<h1>Welcome in test now {{ $name }}</h1>
+<h1>Welcome in main {{ $name }}</h1>
+

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserModel extends Model
 {
-   public function print($name)
+   public function profile($name)
     {
         return view('profile', compact('name'));
     }
